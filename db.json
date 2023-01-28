@@ -1,0 +1,88 @@
+{
+  "coffees": [
+    {
+      "uuid": "e0d666ad-ff3b-43b1-963b-e6047a091a29",
+      "name": "Expresso Tradicional",
+      "description": "O tradicional café feito com água quente e grãos moídos",
+      "tags": [
+        {
+          "uuid": "d57e9c73-7d74-4f08-a698-0407e9d8bea3",
+          "name": "Tradicional"
+        }
+      ],
+      "price": 9.9
+    },
+    {
+      "uuid": "bd6b98d9-9e7f-4a02-849c-5165cb10835f",
+      "name": "Expresso Americano",
+      "description": "Expresso diluído, menos intenso que o tradicional",
+      "tags": [
+        {
+          "uuid": "d57e9c73-7d74-4f08-a698-0407e9d8bea3",
+          "name": "Tradicional"
+        }
+      ],
+      "price": 9.9
+    },
+    {
+      "uuid": "43f2fa77-1d16-42f9-9485-9e8cdc0ffe44",
+      "name": "Expresso Cremoso",
+      "description": "Café expresso tradicional com espuma cremosa",
+      "tags": [
+        {
+          "uuid": "d57e9c73-7d74-4f08-a698-0407e9d8bea3",
+          "name": "Tradicional"
+        }
+      ],
+      "price": 9.9
+    },
+    {
+      "uuid": "e0d666ad-ff3b-43b1-963b-e6047a091a29",
+      "name": "Expresso Gelado",
+      "description": "Bebida preparada com café expresso e cubos de gelo",
+      "tags": [
+        {
+          "uuid": "d57e9c73-7d74-4f08-a698-0407e9d8bea3",
+          "name": "Tradicional"
+        },
+        {
+          "uuid": "f2bc2d56-1e89-464f-a1d2-07975f3bd5a9",
+          "name": "Gelado"
+        }
+      ],
+      "price": 12
+    },
+    {
+      "uuid": "d623f437-336f-4b77-a2ce-a7376377afcb",
+      "name": "Café com Leite",
+      "description": "Meio a meio de expresso tradicional com leite vaporizado",
+      "tags": [
+        {
+          "uuid": "d57e9c73-7d74-4f08-a698-0407e9d8bea3",
+          "name": "Tradicional"
+        },
+        {
+          "uuid": "7a50585d-3b31-481b-b391-ac10fd311d48",
+          "name": "com leite"
+        }
+      ],
+      "price": 8
+    },
+    {
+      "uuid": "62c9fe5e-f9c4-4710-9fb5-85fe726567a0",
+      "name": "Latte",
+      "description": "Uma dose de café expresso com o dobro de leite e espuma cremosa",
+      "tags": [
+        {
+          "uuid": "d57e9c73-7d74-4f08-a698-0407e9d8bea3",
+          "name": "Tradicional"
+        },
+        {
+          "uuid": "7a50585d-3b31-481b-b391-ac10fd311d48",
+          "name": "com leite"
+        }
+      ],
+      "price": 11
+    }
+  ]
+}
