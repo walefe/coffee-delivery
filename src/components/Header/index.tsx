@@ -1,20 +1,21 @@
-import { Container, LocationTag, LogoImage, ShoppingCartButton, ShoppingCartIcon, WrapperLocationTag } from "./styles";
 import Logo from '../../assets/Logo.png'
-import { MapPin } from "phosphor-react";
+import { MapPin, ShoppingCart } from "phosphor-react";
+import { Button } from "../Button";
+import * as S from "./styles";
 
 export function Header() {
   return (
-    <Container>
-      <LogoImage src={Logo} />
-      <WrapperLocationTag>
-        <LocationTag>
+    <S.Container>
+      <S.LogoImage src={Logo} />
+      <S.WrapperLocationTag>
+        <S.LocationTag>
           <MapPin size={22}/>
           <p>Porto Alegre, RS</p>
-        </LocationTag>
-        <ShoppingCartButton>
-          <ShoppingCartIcon size={22} />
-        </ShoppingCartButton>
-      </WrapperLocationTag>
-    </Container>
+        </S.LocationTag>
+        <Button size="small">
+          <ShoppingCart size={22} />
+        </Button>
+      </S.WrapperLocationTag>
+    </S.Container>
   )
 }

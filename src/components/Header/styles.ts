@@ -41,15 +41,3 @@ export const LocationTag = styled.div`
     margin-right: 4px;
   }
 `
-
-export const ShoppingCartButton = styled.button`
-  background-color: ${({ theme }) => theme.colors.product["yellow-light"]};
-  padding: 8px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-`
-
-export const ShoppingCartIcon = styled(ShoppingCart)`
-  color: ${({theme}) =>  theme.colors.product["yellow-dark"]}
-`
