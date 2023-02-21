@@ -1,7 +1,7 @@
 import Logo from '../../assets/Logo.png'
-import { MapPin, ShoppingCart } from "phosphor-react";
-import { Button } from "../Button";
-import * as S from "./styles";
+import { MapPin, ShoppingCart } from 'phosphor-react'
+import { Button } from '../Button'
+import * as S from './styles'
 
 export function Header() {
   return (
@@ -9,7 +9,7 @@ export function Header() {
       <S.LogoImage src={Logo} />
       <S.WrapperLocationTag>
         <S.LocationTag>
-          <MapPin size={22}/>
+          <MapPin size={22} />
           <p>Porto Alegre, RS</p>
         </S.LocationTag>
         <Button size="small">

@@ -10,7 +10,7 @@ export const defaultTheme = {
       label: '#8D8686',
       text: '#574F4D',
       subtitle: '#403937',
-      title: '#272221'
+      title: '#272221',
     },
     product: {
       purple: '#8047F8',
@@ -18,7 +18,7 @@ export const defaultTheme = {
       'purple-dark': '#4B2995',
       yellow: '#DBAC2C',
       'yellow-light': '#F1E9C9',
-      'yellow-dark': '#C47F17'
-    }
-  }
+      'yellow-dark': '#C47F17',
+    },
+  },
 } as const

@@ -1,10 +1,10 @@
-import { ShoppingCart } from "phosphor-react";
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 70rem;
   width: 100%;
   height: 6.5rem;
 `
@@ -28,11 +28,11 @@ export const LocationTag = styled.div`
   justify-content: center;
   width: 143px;
   height: 38px;
-  background-color: ${({ theme }) => theme.colors.product["purple-light"]};
+  background-color: ${({ theme }) => theme.colors.product['purple-light']};
   border-radius: 6px;
 
   p {
-    color: ${({ theme }) => theme.colors.product["purple-dark"]};
+    color: ${({ theme }) => theme.colors.product['purple-dark']};
     font-size: 0.8rem;
   }
 

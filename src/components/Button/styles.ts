@@ -1,16 +1,16 @@
-import styled, { css } from "styled-components";
-import { ButtonProps } from ".";
+import styled, { css } from 'styled-components'
+import { ButtonProps } from '.'
 
 const wrappingModifiers = {
   small() {
-     return css`
+    return css`
       width: 2.3rem;
       height: 2.3rem;
       padding: 8px;
 
       svg {
-        color: ${({ theme }) => theme.colors.product["yellow-dark"]};
-        fill: ${({ theme }) => theme.colors.product["yellow-dark"]};
+        color: ${({ theme }) => theme.colors.product['yellow-dark']};
+        fill: ${({ theme }) => theme.colors.product['yellow-dark']};
       }
     `
   },
@@ -19,13 +19,13 @@ const wrappingModifiers = {
       width: 23rem;
       height: 2.8rem;
     `
-  }
+  },
 }
 
 export const Container = styled.button<ButtonProps>`
-  background-color: ${({ theme }) => theme.colors.product["yellow-light"]};
+  background-color: ${({ theme }) => theme.colors.product['yellow-light']};
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  ${({theme, size}) => wrappingModifiers[size]}
+  ${({ theme, size }) => wrappingModifiers[size]}
 `
