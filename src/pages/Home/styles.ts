@@ -44,6 +44,7 @@ export const Paragraph = styled.p<ParagraphProps>`
   color: ${({ theme }) => theme.colors.base.subtitle};
   ${({ type }) => wrapperModifiers[type]}
   line-break: auto;
+  flex-wrap: wrap;
 `
 
 export const GridCoffeeContainer = styled.main`
