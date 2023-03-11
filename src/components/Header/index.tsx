@@ -9,11 +9,11 @@ export function Header() {
       <S.LogoImage src={Logo} />
       <S.WrapperLocationTag>
         <S.LocationTag>
-          <MapPin size={22} />
+          <MapPin size={22} weight="fill" />
           <p>Porto Alegre, RS</p>
         </S.LocationTag>
         <Button size="small">
-          <ShoppingCart size={22} />
+          <ShoppingCart size={22} weight="fill" />
         </Button>
       </S.WrapperLocationTag>
     </S.Container>

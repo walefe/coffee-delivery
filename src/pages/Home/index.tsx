@@ -58,7 +58,6 @@ export function Home() {
           </S.ParagraphContainer>
           <img src={CoffeeLogo} alt="" />
         </S.BannerContainer>
-
         <S.GridCoffeeContainer>
           {coffees?.map((coffee) => (
             <Card key={coffee.uuid} coffee={coffee} />
